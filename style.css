@@ -1,0 +1,83 @@
+.a input:checked{
+    height: 20px;
+    width: 20px;
+}
+.b input:enabled{
+    background-color: green;
+}
+.b input:disabled{
+    background-color: red;
+}
+.b input:checked{
+    accent-color: green;
+}
+p:empty{
+    width: 150px;
+    height: 15px;
+    background-color: red;
+
+}
+
+.c p:first-of-type{
+    color: green;
+}
+
+.d input:focus{
+    background-color: green;
+}
+.e input:in-range{
+
+    background-color: green;
+
+}
+.e input:out-of-range{
+    border: 2px solid red;
+    background-color: red;
+}
+.f input:valid{
+    color: green;
+    border: 2px solid green;
+}
+.f input:invalid{
+    color:red;
+    border: 2px solid red;
+}
+.g span:last-child{
+    color: red;
+}
+
+.h p:first-child{
+    color: green;
+}
+.h p:last-child{
+    color:red;
+ }
+ .main-box{
+    border: 2px solid black;
+    height: 600px;
+    width: 800px;
+ }
+ .sub-box{
+    border: 2px solid blue;
+    height: 200px;
+    width: 700px;
+ }
+ .main-box p:last-of-type{
+    color: red;
+ }
+ .main-box span:last-child{
+    color: green;
+ }
+
+ .i p{
+    color: green;
+ }
+ .i:not(p){
+    color: red;
+ }
+ div .j p:nth-child(4){
+    color: red;
+ }
+
+
+
